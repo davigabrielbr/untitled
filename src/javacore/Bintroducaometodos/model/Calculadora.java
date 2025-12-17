@@ -30,4 +30,24 @@ public class Calculadora {
         System.out.println("Numero 1: " + numero1);
         System.out.println("Numero 2: " + numero2);
     }
+
+    public void somaArray(int [] numeros) {
+        int soma = 0;
+
+        for (int vetor: numeros) {
+            soma += vetor;
+        }
+
+        System.out.println(soma);
+    }
+
+    public void somaVarArgs(int... numeros) {
+        int soma = 0;
+
+        for (int vetor: numeros) {
+            soma += vetor;
+        }
+
+        System.out.println(soma);
+    }
 }
