@@ -9,6 +9,5 @@ public class AnimeTest01 {
         
         anime.imprime();
         anime2.imprime();
-        anime2.imprime();
     }
 }
