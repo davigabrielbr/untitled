@@ -8,5 +8,6 @@ public class AnimeTest01 {
         Anime anime2 = new Anime("Teste", "TV", 15, "Terror", "Estudio");
         
         anime.imprime();
+        anime2.imprime();
     }
 }
