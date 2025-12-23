@@ -16,6 +16,7 @@ public class Anime {
             episodios[i] = i + 1;
         }
     }
+
     public Anime() {
         for(int episodio: this.episodios) {
             System.out.print(episodio + " ");
