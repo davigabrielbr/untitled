@@ -18,6 +18,7 @@ public class Anime {
     }
 
     public void imprime() {
+        System.out.println("-------------");
         System.out.println(this.nome);
         System.out.println(this.tipo);
         System.out.println(this.episodios);
