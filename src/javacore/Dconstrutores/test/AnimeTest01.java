@@ -7,6 +7,5 @@ public class AnimeTest01 {
         Anime anime = new Anime("Naruto", "TV", 12, "Ação", "Production IG");
 
         anime.imprime();
-        anime.imprime();
     }
 }
